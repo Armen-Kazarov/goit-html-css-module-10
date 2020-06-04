@@ -215,7 +215,7 @@ ul {
     transition-timing-function: linear;
 }
 
-.menu-list__link--hover:hover {
+.menu-list__link:hover {
     color: var(--hover-nav-link-social-icons-bg-color);
     -webkit-transition-property: color;
     transition-property: color;
@@ -225,7 +225,7 @@ ul {
     transition-timing-function: linear;
 }
 
-.menu-list__link--hover:hover::after {
+.menu-list__link:hover::after {
     -webkit-transition-property:
             visibility,
             opacity;
@@ -262,7 +262,7 @@ ul {
     transition-timing-function: linear;
 }
 
-.header-action__link-cart--hover:hover .header-action__icon-cart {
+.header-action__link-cart:hover .header-action__icon-cart {
     fill: var(--hover-nav-link-social-icons-bg-color);
     -webkit-transition-property: fill;
     transition-property: fill;
@@ -285,7 +285,7 @@ ul {
     transition-timing-function: linear;
 }
 
-.header-action__btn--hover:hover .header-action__icon-search {
+.header-action__btn:hover .header-action__icon-search {
     fill: var(--hover-nav-link-social-icons-bg-color);
     -webkit-transition-property: fill;
     transition-property: fill;
@@ -358,7 +358,7 @@ ul {
     -webkit-transition-timing-function: linear;
     transition-timing-function: linear;
 }
-.hero__btn-link--hover:hover {
+.hero__btn-link:hover {
     background-color: var(--hover-nav-link-social-icons-bg-color);
     border-color: var(--hover-nav-link-social-icons-bg-color);
     -webkit-transition-property:
@@ -387,10 +387,6 @@ ul {
     display: block;
     margin-bottom: 20px;
     font: var(--setion-title-first-row-font);
-}
-
-.section__title-first-row--first-letter-uppercase:first-letter {
-    text-transform: uppercase;
 }
 
 .section__title-second-row {
@@ -439,31 +435,31 @@ ul {
     color: var(--sections-text-color);
 }
 
-.amazing-services-list__item-text--first-letter-uppercase:first-letter {
+.first-letter-uppercase:first-letter {
     text-transform: uppercase;
 }
 
-.amazing-services-list__bg-alarm {
+.amazing-services-list--bg-alarm {
     background: url("../img/icons/alarm.svg") 20px 0 no-repeat;
 }
 
-.amazing-services-list__bg-line-graph {
+.amazing-services-list--bg-line-graph {
     background: url("../img/icons/line-graph.svg") 20px 0 no-repeat;
 }
 
-.amazing-services-list__bg-computer {
+.amazing-services-list--bg-computer {
     background: url("../img/icons/computer-ok.svg") 20px 0 no-repeat;
 }
 
-.amazing-services-list__bg-book {
+.amazing-services-list--bg-book {
     background: url("../img/icons/book-2.svg") 20px 0 no-repeat;
 }
 
-.amazing-services-list__bg-home {
+.amazing-services-list--bg-home {
     background: url("../img/icons/home.svg") 20px 0 no-repeat;
 }
 
-.amazing-services-list__bg-image {
+.amazing-services-list--bg-image {
     background: url("../img/icons/image.svg") 20px 0 no-repeat;
 }
 
@@ -478,10 +474,6 @@ ul {
     text-align: center;
     max-width: 1000px;
     margin: 44px auto 90px;
-}
-
-.meet-our-team__description-text--first-letter-uppercase:first-letter {
-    text-transform: uppercase;
 }
 
 .team-cards {
@@ -557,7 +549,7 @@ ul {
     transition-timing-function: linear;
 }
 
-.team-cards__photo-wrapper--hover:hover .team-cards__specialist-photo {
+.team-cards__photo-wrapper:hover .team-cards__specialist-photo {
     -webkit-transition-property: -webkit-transform;
     transition-property: -webkit-transform;
     transition-property: transform;
@@ -570,7 +562,7 @@ ul {
     transform: translate(-10px, -10px);
 }
 
-.team-cards__photo-wrapper--hover:hover .overlay {
+.team-cards__photo-wrapper:hover .overlay {
     -webkit-transition-property:
             visibility,
             opacity,
@@ -629,7 +621,7 @@ ul {
     height: 56px;
 }
 
-.social-network__social-btn--hover:hover {
+.social-network__social-btn:hover {
     -webkit-transition-property:
             background-color;
     transition-property:
@@ -674,7 +666,7 @@ ul {
     height: 26px;
 }
 
-.social-network__social-btn--hover:hover .social-network__icons--hover {
+.social-network__social-btn:hover .social-network__icons {
     fill: var(--nav-hero-icon-hover-color);
     -webkit-transition-property: fill;
     transition-property: fill;
@@ -693,10 +685,6 @@ ul {
     font: 300 italic 15px/24px "Roboto", sans-serif;
     color: var(--sections-text-color);
     text-align: center;
-}
-
-.team-cards__specialist-position--first-letter-uppercase:first-letter {
-    text-transform: uppercase;
 }
 
 .footer {
@@ -750,12 +738,6 @@ ul {
     text-transform: capitalize;
 }
 
-.footer-contact-form__input::-ms-input-placeholder {
-    font: 300 italic 15px/24px "Roboto", sans-serif;
-    color: #ccc;
-    text-transform: capitalize;
-}
-
 .footer-contact-form__input::placeholder {
     font: 300 italic 15px/24px "Roboto", sans-serif;
     color: #ccc;
@@ -782,7 +764,7 @@ ul {
     transition-timing-function: linear;
 }
 
-.footer-contact-form__btn--hover:hover {
+.footer-contact-form__btn:hover {
     background-color: var( --decorationline-hover-social-icons-bg-color);
     -webkit-transition-property:  background-color;
     transition-property:  background-color;
